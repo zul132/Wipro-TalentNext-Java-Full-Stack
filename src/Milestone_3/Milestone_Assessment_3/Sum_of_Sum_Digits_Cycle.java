@@ -1,3 +1,6 @@
+package Milestone_3.Milestone_Assessment_3;
+
+import java.util.Scanner;
 /*
     Program to find the Sum of Sum of Digits in a number in a Cyclic order.
 
@@ -13,9 +16,8 @@
     Input 2: 898546862
     Output 2: 248
  */
-package Milestone_3.Milestone_Assessment_3;
-
-import java.util.Scanner;
+// Time Complexity: O(n2) where n is the number of digits in the input number
+// Space Complexity: O(n)
 
 public class Sum_of_Sum_Digits_Cycle {
   static int sumOfSumOfDigits(int n) {
